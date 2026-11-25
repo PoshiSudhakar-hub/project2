@@ -15,10 +15,8 @@
 #  Only change the marked line. Do not touch anything else.
 # ==============================================================
 
-def deposit(account, amount):
-    # ✍️ Write this line:
-    #    account["balance"] = account["balance"] + amount
-    pass  # 👈 YOUR CODE HERE (replace this line)
+def deposit(account,amount):
+    account["balance"] = account["balance"]+amount
 
 
 # ---------- Do not change anything below this line ----------
